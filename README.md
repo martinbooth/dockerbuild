@@ -3,7 +3,7 @@
 This is a demonstration of an F# FAKE build script for building a basic C# self-hosting webapi project.
 
 It can be ran in 3 different ways:
-- build.cmd on windows. Note that you need to have the docker client, and the environment variables configured to that this works. You'll probably need to install boot2docker and run boot2docker shellinit | iex, or docker toolbox and use docker-machine env {machinename} | iex
+- build.cmd on windows. Note that you need to have the docker client, and the environment variables configured so that this works. You'll probably need to install boot2docker and run boot2docker shellinit | iex, or docker toolbox and use docker-machine env {machinename} | iex
 - build.sh on linux. Note, this will need mono and docker installed
 - docker-build.sh. This will only need docker installed. It will run build.sh inside a docker container which has the necessary prerequistes installed (in this case, just mono).
 
