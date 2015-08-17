@@ -92,9 +92,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="images\cat-and-dog-in-container.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="images\cat-in-container.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
