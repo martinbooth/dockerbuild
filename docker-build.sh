@@ -1,4 +1,5 @@
 docker run \
+    --rm
     -v $(which docker):/usr/local/bin/docker \
     -v /var/run/docker.sock:/var/run/docker.sock \
     -v $(pwd):/var/app \
